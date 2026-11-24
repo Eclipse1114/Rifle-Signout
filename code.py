@@ -1,4 +1,4 @@
-import streamlit
+import streamlit as st
 
 st.tite("Rifle Sign-Out Log")
 st.write("Sign-Out whatever rifle you grabbed!")
