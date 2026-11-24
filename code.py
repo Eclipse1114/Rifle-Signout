@@ -3,13 +3,17 @@ import streamlit as st
 st.title("Rifle Sign-Out Log")
 st.write("Sign-Out whatever rifle you grabbed!")
 
+if "saved_rifle" not in st.session_state:
+  st.session_state.saved_rifle = ""
 
-def clear_input():
-  x = rifle
-  st.write(x)
+
+def handle_submit():
+  st.session_state.saved_rifle = st.session_state.rifle
   st.session_state.rifle = ""
 
 
-rifle = st.text_input(
-    "What # rifle(s) did you get?", key="rifle", on_change=clear_input
+st.text_input(
+    "What # rifle(s) did you get?", key="rifle", on_change=handle_submit
 )
+rifle = st.session_state.saved_rifle
+st.write(rifle)
