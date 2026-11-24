@@ -7,8 +7,8 @@ st.set_page_config(
 st.markdown("""
   <style>
     .stApp {
-      color: #4B5320;
-      text_color: #FFCC01;
+      background-color: #4B5320;
+      color: #FFCC01;
     }
   </style>
 """, unsafe_allow_html=True)
