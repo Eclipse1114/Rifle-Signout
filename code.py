@@ -1,5 +1,9 @@
 import streamlit as st
 
+st.set_page_config(
+  st.page_title="Rifle Sign-Out"
+)
+
 st.title("Rifle Sign-Out Log")
 st.write("Sign-Out whatever rifle you grabbed!")
 
