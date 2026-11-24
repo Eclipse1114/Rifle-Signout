@@ -25,6 +25,6 @@ def handle_submit():
   st.session_state.rifle = ""
 
 
-st.text_input(key="rifle", on_change=handle_submit)
+st.text_input("", key="rifle", on_change=handle_submit)
 rifle = st.session_state.saved_rifle
 st.write(rifle)
