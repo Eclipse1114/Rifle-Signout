@@ -11,7 +11,7 @@ st.markdown("""
       text_color: #FFCC01;
     }
   </style>
-""", unsafe-allow-html=True)
+""", unsafe_allow_html=True)
 
 st.title("Rifle Sign-Out Log")
 st.write("Sign-Out whatever rifle you grabbed!")
