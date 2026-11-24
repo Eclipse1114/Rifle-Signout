@@ -5,4 +5,4 @@ st.write("Sign-Out whatever rifle you grabbed!")
 
 rifle = st.text_input("What # rifle(s) did you get?", key="rifle")
 st.write(rifle)
-st.session_state.rifle = ""
+rifle = ""
