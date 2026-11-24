@@ -4,6 +4,15 @@ st.set_page_config(
   page_title="Rifle Sign-Out"
 )
 
+st.markdown("""
+  <style>
+    .stApp {
+      color: #4B5320;
+      text_color: #FFCC01;
+    }
+  </style>
+""", unsafe-allow-html=True)
+
 st.title("Rifle Sign-Out Log")
 st.write("Sign-Out whatever rifle you grabbed!")
 
