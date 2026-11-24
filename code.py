@@ -5,7 +5,8 @@ st.write("Sign-Out whatever rifle you grabbed!")
 
 
 def clear_input():
-  st.write(rifle)
+  x = rifle
+  st.write(x)
   st.session_state.rifle = ""
 
 
